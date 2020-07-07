@@ -67,5 +67,5 @@ class NeteaseSignin():
 if __name__ == '__main__':
     args = parseArgs()
     info = {'username': args.username, 'password': args.password}
-    sign_in = NeteaseCheckIn(username=args.username, password=args.password)
+    sign_in = NeteaseSignin(username=args.username, password=args.password)
     sign_in.run()
