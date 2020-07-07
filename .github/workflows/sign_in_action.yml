@@ -1,13 +1,13 @@
 name: 'Netease sign in'
 
 # 定义脚本触发方式
-# 每次push操作后或者每天国际标准时间8点执行
+# 每次push操作后或者每天国际标准时间20点执行
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 20 * * *'
 
 jobs:
   netease:
