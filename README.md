@@ -1,0 +1,2 @@
+# NeteaseCheckIn
+基于GitHub的Actions实现网易云音乐自动签到
